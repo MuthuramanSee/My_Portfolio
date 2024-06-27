@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  h1 {
+    color: #BB86FC;
+  }
+  a {
+    color: #BB86FC;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  form {
+    background-color: #1F1F1F;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333333;
+    color: #FFFFFF;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #BB86FC;
+    color: #121212;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #9B61DC;
+  }
+  .social-links {
+    margin-top: 20px;
+  }
+  .social-links a {
+    margin: 0 10px;
+  }
