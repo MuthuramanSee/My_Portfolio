@@ -4,7 +4,7 @@
       margin-bottom: 6rem;
     }
     .about-containers {
-      flex-wrap: wrap;
+      flex-wrap: wrap; 
     }
     #contact,
     #projects {
@@ -45,6 +45,16 @@
     .about-containers {
       margin-top: 0;
     }
+  }
+
+  @media screen and (max-width:1000px) {
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+      display: block;
+    }
+    
   }
   
   @media screen and (max-width: 600px) {
@@ -105,4 +115,13 @@
       text-align: justify;
     }
   }
-  
+  @media screen and (max-width:400px) {
+    .menulinks{
+      width: 100%;
+    }
+  }
+
+
+    
+   
+    
